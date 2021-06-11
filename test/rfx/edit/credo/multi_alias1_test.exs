@@ -102,7 +102,7 @@ defmodule Rfx.Edit.Credo.MultiAlias1Test do
 
     @tag :pending
     test "using string-literal boilerplate code" do
-      input_code = ~s'''
+      input_code = ~S'''
       module DemoMod do
         @moduledoc """
         Documentation for `DemoMod`.
